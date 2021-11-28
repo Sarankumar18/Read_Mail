@@ -1,2 +1,2 @@
 # Read_Mail
-Fetch Mail from gmail using Python
+Fetch Mail from gmail/outlook using Python
