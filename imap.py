@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 imap_host = "outlook.office365.com"
-imap_user = "borige.abhiram2019@vitstudent.ac.in"
+imap_user = os.getenv("EMAIL")
 imap_pass = os.getenv("PASSWORD")
 
 # connect to host using SSL
